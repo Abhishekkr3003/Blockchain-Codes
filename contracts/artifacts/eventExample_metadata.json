@@ -1,0 +1,81 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_a",
+						"type": "uint256"
+					},
+					{
+						"name": "_b",
+						"type": "uint256"
+					}
+				],
+				"name": "getValue",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "owner",
+						"type": "address"
+					}
+				],
+				"name": "Increment",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/17.sol": "eventExample"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/17.sol": {
+			"keccak256": "0xe42fe596a3927cca31ffda7dd42bca632e5b0ef270e99a16c89902a399511475",
+			"urls": [
+				"bzzr://f2b4c5638694f5a7340c36525514cc9d0e6d99e68e0f0c9266f144fb14cc9e11"
+			]
+		}
+	},
+	"version": 1
+}

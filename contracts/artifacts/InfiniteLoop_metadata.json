@@ -1,0 +1,52 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/21.sol": "InfiniteLoop"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/21.sol": {
+			"keccak256": "0x6b82687bf487464c5c93ca05bee220fdaa7f1a2396d8bc3088130996365e37c5",
+			"urls": [
+				"bzz-raw://d0cc665eb42d4236d487a1145357aba88088631cee338c7a8a384b5cfebd4c6a",
+				"dweb:/ipfs/QmRweUyQZS44FVwfdbgVJ88qCLVp1eQhA23CxW9Ed1dZ72"
+			]
+		}
+	},
+	"version": 1
+}

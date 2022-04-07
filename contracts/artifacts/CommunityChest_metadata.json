@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setbalance",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/14.sol": "CommunityChest"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/14.sol": {
+			"keccak256": "0x70307f305d997c87ac9ce5e542c48f9f9e54890ef2db5829ad7a8f3778877f3b",
+			"urls": [
+				"bzz-raw://e7305f99bba7874318818010dcd7f5df696409b0d8006d6d17364fe9d0a2475e",
+				"dweb:/ipfs/QmPvurkgV9YBY4VzyR3yyuU23UL2NPNLftssCnWLveDX28"
+			]
+		}
+	},
+	"version": 1
+}
