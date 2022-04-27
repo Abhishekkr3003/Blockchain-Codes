@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "sendHalf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					}
+				],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/22.sol": "Sharer"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/22.sol": {
+			"keccak256": "0x41da54e9b8097ea0b74e2855f178b1a77bfaa9e354eaed364a5e26a672cd7aa8",
+			"urls": [
+				"bzz-raw://4934dbcf2ac3e3f648f483449604ab4738b6a7a794f8429e62062a3fc73822ae",
+				"dweb:/ipfs/QmdRPhCEQ69uoi5Jv57hJwmtE3qWLr7BcaWqCiKrpZjXwb"
+			]
+		}
+	},
+	"version": 1
+}

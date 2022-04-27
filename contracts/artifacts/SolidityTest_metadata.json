@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.13+commit.abaa5c0e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -15,9 +15,9 @@
 				"name": "getResult",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "uint256",
 						"name": "",
-						"type": "address"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -37,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/9.sol": "SolidityTest"
+			"contracts/6.sol": "SolidityTest"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -51,11 +51,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/9.sol": {
-			"keccak256": "0xe76f5f3b37c4b598d28c5ea7c1abcac65bd6b50c034f05533c1c61a2d1aaf7c9",
+		"contracts/6.sol": {
+			"keccak256": "0xc16faf852c6f3583332e61bb8d1f905a96e7b1c178c5b9dc464a5799c463d682",
 			"urls": [
-				"bzz-raw://42cf5a752ecb60b6d1743dbcb010c0a7f6a8cbc4284d557ab84229f65bf99cd1",
-				"dweb:/ipfs/QmZMWKJN14Vp9QyeCBot675enFEyR7U4zWaSQNc7sRaVQY"
+				"bzz-raw://16d50d44b54651820c7e53b25e4ef2c82caa55ba6331eaddf23e1e6c58e731e9",
+				"dweb:/ipfs/QmWWMf8iLjZBWd9t7ovqHbdH24NWXrfa1GLgtWgcapoNUr"
 			]
 		}
 	},
